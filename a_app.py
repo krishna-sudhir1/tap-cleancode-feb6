@@ -45,6 +45,6 @@ print(HORIZONTAL_RULE)
 # Loop through dictionaries print key : value - element type
 # for
 for key in dictionary_sample:
-  print()
+  print(key)
 print("-"*20)
 
