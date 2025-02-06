@@ -1,5 +1,5 @@
 # ---- Session on Clean Coding, Data types, Functions, TDD ----
-hr = "-" * 40
+HORIZONTAL_RULE = "-" * 40
 
 # Refactor the following
 
@@ -20,17 +20,17 @@ print(" ---- Listing Items using range() ----")
 
 for ctr in range(len(list_sample)):
   print(ctr, ":", list_sample[ctr])
-print(hr)
+print(HORIZONTAL_RULE)
 
-em = "j@em2.com"
+email = "j@em2.com"
 
 # Dictionary : { key_1: value_1, key_2: value_2, ..... key_n: value_n }
-d = {
+dictionary_sample = {
   "id" : 123,
   "name": "John",
   "email" : [
       "j@em.com",
-      em
+      email
   ]
 }
 
@@ -41,7 +41,7 @@ print("   Name:")
 print(" Emails:")
 print("Email 1:")
 print("Email 2:")
-print(hr)
+print(HORIZONTAL_RULE)
 # Loop through dictionaries print key : value - element type
 # for
 print("-"*20)
