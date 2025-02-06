@@ -36,13 +36,15 @@ dictionary_sample = {
 
 # Access dictionaries individually
 print("   ---- Access Dictionaries ----")
-print("     Id:")
-print("   Name:")
-print(" Emails:")
-print("Email 1:")
+print("     Id:", dictionary_sample["id"])
+print("   Name:", dictionary_sample["name"])
+print(" Emails:", dictionary_sample["email"])
+print("Email 1:", dictionary_sample["email"][0])
 print("Email 2:")
 print(HORIZONTAL_RULE)
 # Loop through dictionaries print key : value - element type
 # for
+for key in dictionary_sample:
+  print()
 print("-"*20)
 
